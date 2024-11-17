@@ -1,0 +1,15 @@
+[package]
+name = " Proof-of-humanity system for social apps."
+version = "1.0.0"
+authors = []
+
+[addresses]
+ProofOfHumanity = '0xb2ea42af0ac8842a2c45d92ed0f0a04ca4982bf99c941d3a1306e050dc6607dc'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
